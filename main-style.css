@@ -11,22 +11,25 @@ body {
   color: #222;
   line-height: 1.7;
   font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* === ÜST BAŞLIK / HEADER === */
 header {
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 20px 40px;
   text-align: center;
   border-bottom: 1px solid #ddd;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
 }
 
 header h1 {
-  font-size: 26px;
+  font-size: 28px;
   margin: 0;
   color: #1a1a1a;
   letter-spacing: 1px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 header p {
@@ -35,7 +38,7 @@ header p {
   margin-top: 5px;
 }
 
-/* === MENÜ === */
+/* === MENÜ / NAVIGATION === */
 nav {
   display: flex;
   justify-content: center;
@@ -75,7 +78,7 @@ h3 {
   color: #333;
 }
 
-/* === ANA İÇERİK === */
+/* === ANA İÇERİK / MAIN === */
 main {
   max-width: 900px;
   margin: 40px auto;
@@ -89,51 +92,9 @@ main {
 p {
   margin-bottom: 15px;
   color: #444;
+  font-size: 16px;
+  line-height: 1.8;
 }
 
-/* === LİSTELER === */
-ul, ol {
-  margin: 15px 0 15px 25px;
-  color: #444;
-  line-height: 1.6;
-}
+/* === LİSTELER === *
 
-/* === LİNKLER === */
-a {
-  color: #1a4a7a;
-  text-decoration: none;
-  transition: all 0.3s ease;
-}
-
-a:hover {
-  text-decoration: underline;
-  color: #0d2d54;
-}
-
-/* === BUTONLAR === */
-button, .btn {
-  display: inline-block;
-  padding: 8px 16px;
-  background-color: #1a4a7a;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: all 0.3s ease;
-  font-size: 15px;
-  cursor: pointer;
-}
-
-button:hover, .btn:hover {
-  background-color: #0d2d54;
-}
-
-/* === FOOTER === */
-footer {
-  text-align: center;
-  padding: 20px;
-  font-size: 14px;
-  background-color: #f1f1f1;
-  border-top: 1px solid #ddd;
-  color: #666;
-  margin-top: 40px;
-}

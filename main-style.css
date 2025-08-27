@@ -1,0 +1,139 @@
+/* === GENEL AYARLAR === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Georgia", "Times New Roman", serif;
+  background-color: #f9f9f9; /* Göz yormayan açık gri arka plan */
+  color: #222;
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+/* === ÜST BAŞLIK / HEADER === */
+header {
+  background-color: #ffffff;
+  padding: 20px 40px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+  font-size: 26px;
+  margin: 0;
+  color: #1a1a1a;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+header p {
+  font-size: 15px;
+  color: #555;
+  margin-top: 5px;
+}
+
+/* === MENÜ === */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  background-color: #f1f1f1;
+  padding: 12px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  padding: 8px 14px;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #e4e4e4;
+}
+
+/* === SAYFA BAŞLIKLARI === */
+h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  margin-top: 25px;
+  color: #222;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-top: 20px;
+  color: #333;
+}
+
+/* === ANA İÇERİK === */
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+}
+
+/* Paragraflar */
+p {
+  margin-bottom: 15px;
+  color: #444;
+}
+
+/* === LİSTELER === */
+ul, ol {
+  margin: 15px 0 15px 25px;
+  color: #444;
+  line-height: 1.6;
+}
+
+/* === LİNKLER === */
+a {
+  color: #1a4a7a;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #0d2d54;
+}
+
+/* === BUTONLAR === */
+button, .btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #1a4a7a;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover, .btn:hover {
+  background-color: #0d2d54;
+}
+
+/* === FOOTER === */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  background-color: #f1f1f1;
+  border-top: 1px solid #ddd;
+  color: #666;
+  margin-top: 40px;
+}

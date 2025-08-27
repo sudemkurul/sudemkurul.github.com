@@ -1,0 +1,2 @@
+/* Bridge file: css-dos.css → uses main-style.css */
+@import url("main-style.css");

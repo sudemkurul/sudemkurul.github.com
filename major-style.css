@@ -1,0 +1,4 @@
+/* Bridge file: major-style.css → uses main-style.css */
+@import url("main-style.css");
+
+/* Not: Tüm stiller main-style.css içindedir. */

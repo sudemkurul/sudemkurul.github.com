@@ -1,4 +1,72 @@
-/* Bridge file: major-style.css → uses main-style.css */
-@import url("main-style.css");
+/* ===== Temel ayarlar ===== */
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{height:100%}
+body{
+  font-family: "Georgia","Times New Roman",serif;
+  background:#f5f6f7;
+  color:#222;
+  line-height:1.7;
+  font-size:16px;
+}
 
-/* Not: Tüm stiller main-style.css içindedir. */
+/* ===== Yerleşim: sol menü + sağ içerik ===== */
+.layout{
+  display:grid;
+  grid-template-columns: 260px 1fr;   /* sol menü genişliği + içerik */
+  min-height:100vh;
+}
+
+/* ===== Sidebar ===== */
+.sidebar{
+  background:#111827;                 /* koyu gri (akademik) */
+  color:#e5e7eb;
+  padding:28px 22px;
+  position:sticky; top:0; height:100vh; /* sayfa kayarken sabit kalsın */
+  border-right:1px solid #0b1220;
+}
+.brand{
+  font-size:22px;
+  font-weight:700;
+  letter-spacing:.5px;
+  color:#fff;
+  margin-bottom:18px;
+}
+.tagline{
+  font-size:13px;color:#9ca3af;margin-bottom:26px
+}
+.nav{list-style:none}
+.nav li{margin-bottom:8px}
+.nav a{
+  display:block;
+  text-decoration:none;
+  color:#e5e7eb;
+  padding:10px 12px;
+  border-radius:8px;
+  transition:.2s;
+  font-size:15px;
+}
+.nav a:hover,
+.nav a.active{
+  background:#1f2937;                 /* hover/aktif */
+}
+
+/* ===== İçerik ===== */
+.content{
+  padding:38px 40px;
+}
+.page{
+  max-width:900px; margin:0 auto;
+  background:#fff; border:1px solid #e5e7eb;
+  border-radius:10px; box-shadow:0 6px 20px rgba(0,0,0,.04);
+  padding:26px;
+}
+h1{font-size:28px;margin-bottom:14px;letter-spacing:.3px}
+h2{font-size:22px;margin:20px 0 10px;border-bottom:2px solid #eef0f3;padding-bottom:6px}
+h3{font-size:18px;margin:16px 0 10px}
+p{margin:12px 0;color:#444}
+ul{margin:10px 0 10px 22px}
+li{margin:6px 0}
+
+/* ===== Alt bilgi ===== */
+.footer{
+  margin

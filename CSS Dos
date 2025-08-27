@@ -1,0 +1,74 @@
+/* Genel Ayarlar */
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #f3f3f3;
+  margin: 0;
+  padding: 0;
+  color: #2e2e2e;
+  line-height: 1.8;
+}
+
+/* Header Alanı */
+header {
+  text-align: center;
+  padding: 25px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Logo Ayarları */
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 80px;
+  margin-bottom: 6px;
+}
+
+.tagline {
+  font-size: 14px;
+  color: #555;
+  letter-spacing: 0.5px;
+  margin: 0;
+}
+
+/* Navigasyon */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #2e2e2e;
+  font-size: 16px;
+  padding: 8px 12px;
+  transition: all 0.3s ease;
+  border-bottom: 1px solid transparent;
+}
+
+nav ul li a:hover {
+  border-bottom: 1px solid #2e2e2e;
+  color: #000;
+}
+
+/* Ana Açıklama */
+.intro {
+  max-width: 850px;
+  margin: 60px auto;
+  padding: 0 20px;
+  font-size: 17px;
+  text-align: center;
+  color: #333;
+}
